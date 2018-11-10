@@ -1,0 +1,36 @@
+.titleBanner {
+    text-align: center;
+    background-color: #2f2d2e;
+    color: white;
+}
+
+div.stickyHead.row {
+    padding: 0;
+}
+
+.logoImg {
+    height: 5vh;
+    margin: .5% 0 1% 0;
+}
+
+.titleText {
+    height: 100;
+    width: 100%;
+    font-size: 2.75em;
+    margin-top: 1.5vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999 !important;
+}
+
+.modelName {
+    color: darkturquoise;    
+}
+
+.titleBanner > .particles,
+.titleBanner > .particles > canvas {
+    z-index: -99 !important;
+    height: 10vh !important;
+    widows: 100% !important;
+}
